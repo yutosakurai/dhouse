@@ -72,57 +72,5 @@ $('#treeex').stop(true, true).fadeOut(fadeoutSP);
 );
 
 
-// 「london画」hover時に説明フェードイン
- 
-$('#london').hover(
-function () {
-$('#londonexplain').stop(true, true).fadeIn(fadeinSP);
-}, function () {
-$('#londonexplain').stop(true, true).fadeOut(fadeoutSP);
-}
-);
-
-
 });
 
-// pagetopスクロース
-
-$(document).ready(function() {
-
-var pagetop = $('.pagetopbtn');
-
-$(window).scroll(function () {
-if ($(this).scrollTop() > 100) {
-pagetop.fadeIn();
-} else {
-pagetop.fadeOut();
-}
-});
-
-pagetop.click(function () {
-$('body, html').animate({ scrollTop: 0 }, 500);
-return false;
-});
-});
-
-// サブページのスライドショー
-
-$(function(){
-var $setElm = $('#keyblock1'),
-fadeSpeed = 1500,
-switchDelay = 5000;
- 
-$setElm.each(function(){
-var targetObj = $(this);
-var findUl = targetObj.find('ul');
-var findLi = targetObj.find('li');
-var findLiFirst = targetObj.find('li:first');
- 
-findLi.css({display:'block',opacity:'0',zIndex:'1'});
-findLiFirst.css({zIndex:'2'}).stop().animate({opacity:'1'},fadeSpeed);
- 
-setInterval(function(){
-findUl.find('li:first-child').animate({opacity:'0'},fadeSpeed).next('li').css({zIndex:'100'}).animate({opacity:'1'},fadeSpeed).end().appendTo(findUl).css({zIndex:'99'});
-},switchDelay);
-});
-});
