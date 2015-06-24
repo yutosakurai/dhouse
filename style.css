@@ -74,6 +74,11 @@ nav {
 	height: auto;
 }
 
+.explanation p {
+	margin: 0%;
+	text-align: center;
+}
+
 #pcex img{
 	display: block;
 	max-width: 50%;
@@ -82,6 +87,7 @@ nav {
 	margin-right: auto;
 	margin-left: auto;
 }
+
 
 #photoex img{
 	display: block;
@@ -106,8 +112,15 @@ nav {
 	max-width: 18%;
 	height: auto;
 	width /***/:auto;
-	margin-right: auto;
-	margin-left: auto;
+	margin-left: 22%;
+	float: left;
+}
+
+#lightex p {
+	display: block;
+	margin-top: 20%;
+	margin-left: 5%;
+	float: left;
 }
 
 #treeex img{
@@ -178,8 +191,8 @@ nav {
 	height: 7%;
 	top: 28%;
 	bottom: 65%;
-	left: 83%;
-	right: 15%;
+	left: 80%;
+	right: 18%;
 	position: absolute;
 }
 
@@ -194,8 +207,8 @@ nav {
 	height: 44%;
 	top: 0%;
 	bottom: 56%;
-	left: 34%;
-	right: 63%;
+	left: 33%;
+	right: 64%;
 	position: absolute;
 }
 
@@ -211,8 +224,8 @@ nav {
 	height: 35%;
 	top: 10%;
 	bottom: 55%;
-	left: 41%;
-	right: 56%;
+	left: 39%;
+	right: 58%;
 	position: absolute;
 }
 
@@ -227,8 +240,8 @@ nav {
 	height: 28%;
 	top: 17%;
 	bottom: 55%;
-	left: 45%;
-	right: 52%;
+	left: 43%;
+	right: 54%;
 	position: absolute;
 }
 
@@ -243,8 +256,8 @@ nav {
 	height: 18%;
 	top: 45%;
 	bottom: 37%;
-	left: 38%;
-	right: 58%;
+	left: 37%;
+	right: 59%;
 	position: absolute;
 }
 
