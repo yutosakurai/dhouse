@@ -18,6 +18,9 @@ nav {
 	max-width: 100%;
 	height: auto;
 	width /***/:auto;
+	background-image: url(images/dhouselogo.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
 	margin-top: 20%;
 	margin-bottom: 40%;
 }
@@ -28,6 +31,16 @@ nav {
 	width /***/:auto;
 	margin-left: auto;
 	margin-right: auto;
+	opacity: 0;
+	-webkit-transition: opacity .3s linear;
+    -moz-transition: opacity .3s linear;
+    -o-transition: opacity .3s linear;
+    transition: opacity .3s linear;
+    filter: alpha(opacity=0);
+}
+
+.logo img:hover {
+	opacity: 1;
 }
 
 #sidenav {
@@ -68,6 +81,456 @@ nav {
 	color: #BBC000;
 	
 }
+
+.container {
+	width: 80%;
+	height: 100%;
+	margin: 0%;
+	float: right;
+}
+
+#keyblock1 {
+	width: 100%;
+	height: auto;
+	margin: 0%;
+
+}
+
+#keyblock1 ul {
+	width: 100%;
+	height: auto;
+	margin: 0%;
+	padding: 0%;
+	position: relative;
+}
+
+#keyblock1 ul li {
+	width: 100%;
+	height: auto;
+	margin: 0%;
+	display: none;
+	position: absolute;
+}
+
+
+#keyblock1 img{
+	width: 100%;
+	height: auto;
+}
+
+#keyblock2 {
+	width: 100%;
+	height: auto;
+	margin: 0%;
+	overflow: hidden;
+	display: block;
+}
+
+#about {
+	width: 50%;
+	height: auto;
+	margin: 0%;
+	background-image: url(images/about.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#about img {
+	width: 100%;
+	height: auto;
+	opacity: 0;
+	-webkit-transition: opacity .3s linear;
+    -moz-transition: opacity .3s linear;
+    -o-transition: opacity .3s linear;
+    transition: opacity .3s linear;
+    filter: alpha(opacity=0);
+}
+
+#about:hover img {
+	opacity: 1;
+}
+
+
+#aboutexplain {
+	width: 50%;
+	height: auto;
+	float: left;
+}
+
+#aboutexplain p {
+	padding: 3%;
+
+}
+
+#keyblock3 {
+	width: 100%;
+	height: auto;
+	margin: 0%;
+	overflow: hidden;
+	display: block;
+}
+
+#diaryfont {
+	width: 50%;
+	height: auto;
+	float: left;
+}
+
+#diaryfont img {
+	width: 100%;
+	height: auto;
+}
+
+#flow {
+	width: 50%;
+	height: auto;
+	background-image: url(images/flow.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#flow img {
+	width: 100%;
+	height: auto;
+	display: block;
+	opacity: 0;
+	-webkit-transition: opacity .3s linear;
+    -moz-transition: opacity .3s linear;
+    -o-transition: opacity .3s linear;
+    transition: opacity .3s linear;
+    filter: alpha(opacity=0);
+}
+
+#flow:hover img {
+	opacity: 1;
+}
+
+#keyblock4 {
+	width: 100%;
+	height: auto;
+	margin: 0%;
+	overflow: hidden;
+	display: block;
+}
+
+#flow1 {
+	width: 50%;
+	height: auto;
+	background-image: url(images/flow1.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#flow1 img {
+	width: 100%;
+	height: auto;
+	opacity: 0;
+	-webkit-transition: opacity .3s linear;
+    -moz-transition: opacity .3s linear;
+    -o-transition: opacity .3s linear;
+    transition: opacity .3s linear;
+    filter: alpha(opacity=0);
+}
+
+#flow1:hover img {
+	opacity: 1;
+}
+
+#flow1explain {
+	width: 50%;
+	height: auto;
+	float: left;
+}
+
+#flow1explain p {
+	padding: 3%;
+	font-size: 30;
+	font-family:'Futura';
+	font-style: italic; 
+}
+
+#keyblock5 {
+	width: 100%;
+	height: auto;
+	margin: 0%;
+	overflow: hidden;
+	display: block;
+}
+
+#flow2 {
+	width: 25%;
+	height: auto;
+	background-image: url(images/flow2.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-left: 50%;
+	float: left;
+}
+
+#flow2 img {
+	width: 100%;
+	height: auto;
+	opacity: 0;
+	-webkit-transition: opacity .3s linear;
+    -moz-transition: opacity .3s linear;
+    -o-transition: opacity .3s linear;
+    transition: opacity .3s linear;
+    filter: alpha(opacity=0);
+}
+
+#flow2explain {
+	width: 25%;
+	height: auto;
+	float: left;
+}
+
+#flow2explain p {
+	text-align: center;
+	padding: 3%;
+	font-size: 30;
+	font-family:'Futura';
+	font-style: italic;
+}
+
+#flow2:hover img {
+	opacity: 1;
+}
+
+#keyblock6 {
+	width: 100%;
+	height: auto;
+	margin: 0%;
+	overflow: hidden;
+	display: block;
+}
+
+#features {
+	width: 50%;
+	height: auto;
+	background-image: url(images/features.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#features img {
+	width: 100%;
+	height: auto;
+	opacity: 0;
+	-webkit-transition: opacity .3s linear;
+    -moz-transition: opacity .3s linear;
+    -o-transition: opacity .3s linear;
+    transition: opacity .3s linear;
+    filter: alpha(opacity=0);
+}
+
+#features:hover img {
+	opacity: 1;
+}
+
+#flow3 {
+	width: 50%;
+	float: left;
+	overflow: hidden;
+}
+
+#flow3explain {
+	width: 50%;
+	height: auto;
+	float: left;
+}
+
+
+#flow3explain img {
+	width: 100%;
+	height: auto;
+	float: left;
+}
+
+#flow3hover {
+	width: 50%;
+	height: auto;
+	background-image: url(images/flow3.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#flow3hover img {
+	width: 100%;
+	height: auto;
+	opacity: 0;
+	-webkit-transition: opacity .3s linear;
+    -moz-transition: opacity .3s linear;
+    -o-transition: opacity .3s linear;
+    transition: opacity .3s linear;
+    filter: alpha(opacity=0);
+}
+
+#flow3hover:hover img {
+	opacity: 1;
+}
+
+#featuresexplain {
+	width: 100%;
+	float: left;
+	clear: both;
+}
+
+#featuresexplain.col-3 {
+	clear: both;
+}
+
+#featuresexplain p {
+	padding: 3%;
+}
+
+#keyblock7 {
+	width: 100%;
+	height: auto;
+	margin: 0%;
+	overflow: hidden;
+	display: block;
+}
+
+#watchfont {
+	width: 35%;
+	height: auto;
+	float: left;
+}
+
+#watchfont img {
+	width: 100%;
+	height: auto;
+}
+
+#clock {
+	width: 65%;
+	height: auto;
+	float: left;
+}
+
+#clock img {
+	width: 100%;
+	height: auto;
+}
+
+#keyblock8 {
+	width: 100%;
+	height: auto;
+	margin: 0%;
+	overflow: hidden;
+	display: block;
+}
+
+#writer {
+	width: 35%;
+	height: auto;
+	background-image: url(images/travelwriter.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#writer img {
+	width: 100%;
+	height: auto;
+	opacity: 0;
+	-webkit-transition: opacity .3s linear;
+    -moz-transition: opacity .3s linear;
+    -o-transition: opacity .3s linear;
+    transition: opacity .3s linear;
+    filter: alpha(opacity=0);
+}
+
+#writer:hover img {
+	opacity: 1;
+}
+
+#writerexplain {
+	width: 65%;
+	height: auto;
+	float: left;
+}
+
+#writerexplain img {
+	width: 100%;
+	height: auto;
+}
+
+footer {
+	background-color: black;
+	width: 100%;
+	height: 30%;
+	margin-top: 20%;
+	margin-bottom: 0%;
+	overflow: hidden;
+}
+
+#footernav {
+	width: 50%;
+	height: 100%;
+	margin-left: 0%;
+	margin-bottom: 40%;
+	padding: 3% 0% 0% 0%;
+	float: left;
+}
+
+#footernav li {
+	width: 100%;
+	height: 10%;
+	margin-bottom: 2%;
+	list-style-type: none;
+}
+
+#footernav li a{
+	font-size: 20px;
+	margin-left: 15%;
+	text-decoration: none;
+	text-align: left;
+	color: white;
+	border-radius: 0;
+	display: block;
+	transition: 0.5s;
+}
+
+#footernav li a:hover {
+	color: #BBC000;
+}
+
+.footerlogo {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.footerlogo img {
+	width: 50%;
+	height: auto;
+	margin-top: 5%;
+}
+
+.pagetopbtn {
+	position: fixed;
+	bottom: 0%;
+	top: auto;
+	margin-left: 20%;
+}
+
+.pagetopbtn img {
+	width: 100%;
+	height: auto;
+	opacity: 0.5;
+}
+
+
+
+/* ここからサブページここからサブページここからサブページここからサブページ
+ここからサブページここからサブページここからサブページここからサブページ */
+
 
 .explanation {
 	width: 100%;
