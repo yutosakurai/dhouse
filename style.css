@@ -1,6 +1,20 @@
 body {
 	margin: 0%;
 }
+
+#slideshow {
+	width: 100%;
+	height: auto;
+	position: relative;
+	display: none;
+}
+
+#slideshow img {
+	width: 100%;
+	height: auto;
+	position: absolute;
+}
+
 .wrap {
 	height: 100%;
 	margin: 0%;

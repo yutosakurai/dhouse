@@ -1,3 +1,42 @@
+// トップページのスライドショー
+
+$(function(){
+	var fadeTime = 1000;
+	var switchTime = 2500;
+
+	$(window).load(function(){
+		$('#slideshow img').css({opacity:'0'});
+		$('#mydream').stop().animate({opacity:'1'},fadeTime);
+		setTimeout(function(){imgChange01();},switchTime);
+	});
+	function imgChange01() {
+		$('#mydream').stop().animate({opacity:'0'},fadeTime);
+		$('#myhouse').stop().animate({opacity:'1'},fadeTime);
+		setTimeout(function(){imgChange02();},switchTime);
+	};
+	function imgChange02() {
+		$('#myhouse').stop().animate({opacity:'0'},fadeTime);
+		$('#dhouse').stop().animate({opacity:'1'},fadeTime);
+	};
+});
+
+$(function() {
+  var h = $(window).height();
+ 
+  $('.wrap').css('display','none');
+  $('#slideshow').height(h).css('display','block');
+});
+
+$(function(){
+  setTimeout('stopload()',6500);
+});
+ 
+function stopload(){
+  $('.wrap').css('display','block');
+  $('#slideshow').delay(900).fadeOut(900);
+}
+
+
 $(function() {
  
  
